@@ -1,0 +1,16 @@
+product_id,product,category,price,cogs_per_unit
+P01,Kopi Susu Gula Aren,Kopi,22000,7500
+P02,Americano,Kopi,20000,5200
+P03,Cafe Latte,Kopi,28000,9300
+P04,Cappuccino,Kopi,28000,9000
+P05,Cold Brew,Kopi,30000,9800
+P06,Matcha Latte,Non-Kopi,30000,11500
+P07,Teh Tarik,Non-Kopi,18000,4600
+P08,Cokelat Panas,Non-Kopi,26000,9800
+P09,Lemon Tea,Non-Kopi,18000,4300
+P10,Croissant Butter,Makanan,24000,10800
+P11,Roti Bakar Cokelat,Makanan,20000,8200
+P12,Nasi Goreng Kampung,Makanan,32000,15000
+P13,Kentang Goreng,Makanan,20000,7200
+P14,Pisang Goreng,Makanan,16000,6300
+P15,Brownies,Makanan,24000,10400

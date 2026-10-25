@@ -1,0 +1,26 @@
+langkah,masalah,baris_terdampak,tindakan
+1,Jumlah baris data mentah,108521,Titik awal
+2,Baris duplikat persis (ekspor ganda),80,"Dibuang, sisakan satu"
+3,Spasi di awal/akhir/ganda pada kolom teks,4281,Dirapikan (strip)
+4,Nama outlet beda huruf besar/kecil,1721,Diseragamkan ke nama di master_outlet
+5,Outlet kosong,325,274 dipulihkan dari baris lain di order yang sama
+6,Outlet kosong dan tidak bisa dipulihkan,51,Dibuang
+7,Penulisan channel tidak seragam,5908,Diseragamkan: Dine-in / Takeaway / Delivery
+8,Channel tidak dikenali,0,Dibuang
+9,Format tanggal dd/mm/yyyy,1084,Diubah ke format yyyy-mm-dd hh:mm:ss
+10,Tanggal tidak terbaca,0,Dibuang
+11,Tanggal di luar tahun 2025 (tertulis 2026),12,"Dibuang: tahun yang benar tidak bisa dipastikan, jumlah sangat kecil"
+12,product_id kosong,20,20 dipulihkan dari nama produk
+13,product_id kosong dan tidak bisa dipulihkan,0,Dibuang
+14,"Harga tertulis sebagai teks, mis. ""Rp22.000""",1627,Diubah menjadi angka
+15,Harga baris berbeda dari harga master,0,Tidak ada yang perlu diperbaiki
+16,Qty nol atau negatif,25,Dibuang (bukan transaksi penjualan yang valid)
+17,"Qty outlier (> 10 unit per item, normalnya 1-3)",15,Dibuang sebagai salah input
+18,discount_amount kosong pada baris tanpa promo,287,Diisi 0
+19,discount_amount kosong pada baris yang berpromo,0,Dibuang
+20,promo_name kosong (tidak ada promo),95700,"Diisi ""Tanpa Promo"""
+21,Penulisan is_member tidak seragam (Ya/Y/member/Tidak/N ...),81369,Diseragamkan menjadi 1 / 0
+22,customer_id kosong (non-member),70433,"Diisi ""WALKIN"""
+23,Status member tidak cocok dengan customer_id,0,Tidak ada
+24,Net sales negatif,0,Tidak ada
+25,Jumlah baris akhir (clean_sales.csv),108338,Total baris dibuang: 183

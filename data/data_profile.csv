@@ -1,0 +1,37 @@
+data,kolom,tipe_terbaca,baris,kosong,persen_kosong,nilai_unik,contoh
+mentah,order_id,object,108521,0,0.0,54489,ORD000001 | ORD000002 | ORD000003
+mentah,order_datetime,object,108521,0,0.0,55321,2025-01-01 07:21:34 | 2025-01-01 07:28:59 | 01/01/2025 07:51
+mentah,outlet,object,108521,325,0.3,36,Seduh Nusantara Summarecon Bekasi | Seduh Nusantara Margonda | Seduh Nusantara Kemang
+mentah,channel,object,108521,0,0.0,13,Takeaway | Dine-in | Delivery
+mentah,customer_id,object,108521,70544,65.0,2000,M00874 | M00506 | M01605
+mentah,product_id,object,108521,20,0.02,15,P07 | P04 | P03
+mentah,product,object,108521,0,0.0,30,Teh Tarik | Cappuccino | Cafe Latte
+mentah,qty,object,108521,0,0.0,6,1 | 2 | 3
+mentah,unit_price,object,108521,0,0.0,18,18000 | 28000 | 20000
+mentah,is_member,object,108521,0,0.0,8,0 | Tidak | non-member
+mentah,discount_amount,object,108521,287,0.26,25,0 | 3300 | 3000
+mentah,promo_name,object,108521,95860,88.33,2,Diskon Gajian | Promo Kopi Susu Juni
+bersih,order_id,object,108338,0,0.0,54428,ORD000001 | ORD000002 | ORD000003
+bersih,order_datetime,object,108338,0,0.0,55233,2025-01-01 07:21:34 | 2025-01-01 07:28:59 | 2025-01-01 07:51:00
+bersih,outlet_id,object,108338,0,0.0,6,SN03 | SN04 | SN01
+bersih,outlet,object,108338,0,0.0,6,Seduh Nusantara Summarecon Bekasi | Seduh Nusantara Margonda | Seduh Nusantara Kemang
+bersih,channel,object,108338,0,0.0,3,Takeaway | Dine-in | Delivery
+bersih,customer_id,object,108338,0,0.0,2001,WALKIN | M00874 | M00506
+bersih,product_id,object,108338,0,0.0,15,P07 | P04 | P03
+bersih,product,object,108338,0,0.0,15,Teh Tarik | Cappuccino | Cafe Latte
+bersih,category,object,108338,0,0.0,3,Non-Kopi | Kopi | Makanan
+bersih,qty,int64,108338,0,0.0,3,1 | 2 | 3
+bersih,unit_price,int64,108338,0,0.0,9,18000 | 28000 | 20000
+bersih,discount_amount,int64,108338,0,0.0,25,0 | 3300 | 3000
+bersih,promo_name,object,108338,0,0.0,3,Tanpa Promo | Diskon Gajian | Promo Kopi Susu Juni
+bersih,gross_sales,int64,108338,0,0.0,22,18000 | 28000 | 20000
+bersih,net_sales,int64,108338,0,0.0,46,18000 | 28000 | 20000
+bersih,cogs,int64,108338,0,0.0,34,4600 | 9000 | 9300
+bersih,delivery_commission,int64,108338,0,0.0,45,0 | 5600 | 3600
+bersih,gross_profit,int64,108338,0,0.0,119,13400 | 19000 | 13100
+bersih,is_member,int64,108338,0,0.0,2,0 | 1
+bersih,tanggal,object,108338,0,0.0,365,2025-01-01 | 2025-01-02 | 2025-01-03
+bersih,bulan,object,108338,0,0.0,12,2025-01 | 2025-02 | 2025-03
+bersih,jam,int64,108338,0,0.0,16,7 | 8 | 9
+bersih,hari,object,108338,0,0.0,7,Rabu | Kamis | Jumat
+bersih,is_promo,int64,108338,0,0.0,2,0 | 1

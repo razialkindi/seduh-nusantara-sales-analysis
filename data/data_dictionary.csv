@@ -1,0 +1,33 @@
+tabel,kolom,arti,tipe,asal,aturan
+sales,order_id,Nomor order. Satu order bisa punya banyak baris item,teks,mentah,Kunci order. Hitung order dengan COUNT DISTINCT
+sales,order_datetime,Waktu order dibuat,tanggal-waktu,mentah,Hanya tahun 2025; format yyyy-mm-dd hh:mm:ss
+sales,outlet_id,Kode outlet (SN01-SN06),teks,gabungan,Kunci penghubung ke master_outlet
+sales,outlet,Nama outlet,teks,mentah,Diseragamkan ke nama di master_outlet
+sales,channel,Cara pelanggan memesan,kategori,mentah,"Dine-in, Takeaway, atau Delivery"
+sales,customer_id,ID pelanggan; WALKIN jika bukan member,teks,mentah,Member berawalan M
+sales,product_id,Kode produk (P01-P15),teks,mentah,Kunci penghubung ke master_produk
+sales,product,Nama produk,teks,mentah,Diambil dari master_produk
+sales,category,Kelompok produk,kategori,gabungan,"Kopi, Non-Kopi, atau Makanan"
+sales,qty,Jumlah unit produk pada baris itu,bilangan bulat,mentah,Harus > 0; di atas 10 dianggap salah input
+sales,unit_price,Harga satuan (Rp),bilangan bulat,mentah,Sama dengan harga di master_produk
+sales,discount_amount,Total diskon pada baris itu (Rp),bilangan bulat,mentah,0 jika tanpa promo
+sales,promo_name,Nama promo,kategori,mentah,"Diskon Gajian, Promo Kopi Susu Juni, atau Tanpa Promo"
+sales,is_member,Penanda member,label 1/0,mentah,"1 = member, 0 = bukan. Diseragamkan dari Ya/Y/member/Tidak/N"
+sales,gross_sales,Penjualan sebelum diskon,bilangan bulat,turunan,qty x unit_price
+sales,net_sales,Penjualan setelah diskon,bilangan bulat,turunan,gross_sales - discount_amount
+sales,cogs,Harga pokok penjualan (HPP),bilangan bulat,turunan,qty x cogs_per_unit dari master_produk
+sales,delivery_commission,Komisi platform delivery,bilangan bulat,turunan,"20% dari net_sales jika channel Delivery, selain itu 0"
+sales,gross_profit,Laba kotor,bilangan bulat,turunan,net_sales - cogs - delivery_commission
+sales,tanggal,Tanggal order,teks,turunan,"Dari order_datetime, format yyyy-mm-dd"
+sales,bulan,Bulan order,teks,turunan,Format yyyy-mm; urut alfabet = urut waktu
+sales,jam,Jam order (7-22),bilangan bulat,turunan,Dari order_datetime
+sales,hari,Nama hari,kategori,turunan,Senin sampai Minggu
+sales,is_promo,Penanda ada promo,label 1/0,turunan,1 jika promo_name bukan Tanpa Promo
+master_outlet,outlet_id,Kode outlet,teks,master,Kunci utama
+master_outlet,outlet,Nama outlet,teks,master,Nama baku
+master_outlet,kota,Kota lokasi outlet,teks,master,Jabodetabek
+master_produk,product_id,Kode produk,teks,master,Kunci utama
+master_produk,product,Nama produk,teks,master,Nama baku
+master_produk,category,Kelompok produk,kategori,master,"Kopi, Non-Kopi, atau Makanan"
+master_produk,price,Harga jual (Rp),bilangan bulat,master,Harga acuan
+master_produk,cogs_per_unit,HPP per unit (Rp),bilangan bulat,master,Dipakai menghitung cogs

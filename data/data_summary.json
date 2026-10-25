@@ -1,0 +1,34 @@
+{
+  "mentah": {
+    "baris": 108521,
+    "kolom": 12,
+    "duplikat_persis": 80,
+    "kolom_dengan_kosong": {
+      "outlet": 325,
+      "customer_id": 70544,
+      "product_id": 20,
+      "discount_amount": 287,
+      "promo_name": 95860
+    }
+  },
+  "bersih": {
+    "baris": 108338,
+    "kolom": 24,
+    "order_unik": 54428,
+    "outlet": 6,
+    "produk": 15,
+    "member": 2000,
+    "tanggal_awal": "2025-01-01",
+    "tanggal_akhir": "2025-12-31",
+    "nilai_kosong_total": 0
+  },
+  "nilai_order": {
+    "rata_rata": 48959.18277357243,
+    "median": 48000.0,
+    "std": 22591.817812257268,
+    "min": 14300.0,
+    "p25": 30000.0,
+    "p75": 64000.0,
+    "maks": 154000.0
+  }
+}

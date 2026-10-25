@@ -1,0 +1,308 @@
+{
+  "kpi": {
+    "net_sales": 2664750400,
+    "gross_profit": 1577622040,
+    "margin": 0.5920337004171198,
+    "orders": 54428,
+    "aov": 48959.18277357243,
+    "total_discount": 56459600,
+    "total_commission": 151338060,
+    "rows": 108338
+  },
+  "monthly": {
+    "2025-01": {
+      "net_sales": 183343100,
+      "gross_profit": 111060740,
+      "orders": 3716,
+      "margin": 0.6057535843999583,
+      "delivery_share": 0.23008611410118407
+    },
+    "2025-02": {
+      "net_sales": 170809800,
+      "gross_profit": 103457360,
+      "orders": 3443,
+      "margin": 0.605687495682332,
+      "delivery_share": 0.2274179494626779
+    },
+    "2025-03": {
+      "net_sales": 194484800,
+      "gross_profit": 117707780,
+      "orders": 3943,
+      "margin": 0.6052286862520876,
+      "delivery_share": 0.23256403753487193
+    },
+    "2025-04": {
+      "net_sales": 196847800,
+      "gross_profit": 118343900,
+      "orders": 3980,
+      "margin": 0.6011949333444417,
+      "delivery_share": 0.2515075376884422
+    },
+    "2025-05": {
+      "net_sales": 214331400,
+      "gross_profit": 128557040,
+      "orders": 4331,
+      "margin": 0.5998049749126819,
+      "delivery_share": 0.2650658046640499
+    },
+    "2025-06": {
+      "net_sales": 204774500,
+      "gross_profit": 117125840,
+      "orders": 4482,
+      "margin": 0.5719747331821101,
+      "delivery_share": 0.2726461401160196
+    },
+    "2025-07": {
+      "net_sales": 227554800,
+      "gross_profit": 135065600,
+      "orders": 4592,
+      "margin": 0.593551970778028,
+      "delivery_share": 0.2865853658536585
+    },
+    "2025-08": {
+      "net_sales": 246169100,
+      "gross_profit": 145328360,
+      "orders": 4992,
+      "margin": 0.5903598786362707,
+      "delivery_share": 0.3066907051282051
+    },
+    "2025-09": {
+      "net_sales": 237486700,
+      "gross_profit": 139590500,
+      "orders": 4863,
+      "margin": 0.5877823894980224,
+      "delivery_share": 0.31482623894715195
+    },
+    "2025-10": {
+      "net_sales": 258037100,
+      "gross_profit": 151561700,
+      "orders": 5273,
+      "margin": 0.5873639875816307,
+      "delivery_share": 0.32524179783804286
+    },
+    "2025-11": {
+      "net_sales": 256986300,
+      "gross_profit": 150109840,
+      "orders": 5227,
+      "margin": 0.5841161182522181,
+      "delivery_share": 0.34589630763344176
+    },
+    "2025-12": {
+      "net_sales": 273925000,
+      "gross_profit": 159713380,
+      "orders": 5586,
+      "margin": 0.5830551428310669,
+      "delivery_share": 0.34998209810239883
+    }
+  },
+  "growth": {
+    "net_sales_h1": 1164591400,
+    "net_sales_h2": 1500159000,
+    "net_sales_h2_vs_h1": 0.2881419182727951,
+    "gross_profit_h1": 696252660,
+    "gross_profit_h2": 881369380,
+    "gross_profit_h2_vs_h1": 0.2658757813578767,
+    "margin_h1": 0.5978514524493311,
+    "margin_h2": 0.5875173098318245
+  },
+  "outlets": [
+    {
+      "outlet": "Seduh Nusantara Kemang",
+      "net_sales": 580772100,
+      "gross_profit": 343342780,
+      "margin": 0.5911833230280862,
+      "orders": 11955,
+      "delivery_share": 0.29502300292764533,
+      "growth_h2_vs_h1": 0.28100029495756096
+    },
+    {
+      "outlet": "Seduh Nusantara BSD",
+      "net_sales": 516294300,
+      "gross_profit": 306289800,
+      "margin": 0.5932465262545025,
+      "orders": 10562,
+      "delivery_share": 0.28810831281954175,
+      "growth_h2_vs_h1": 0.27288727666533874
+    },
+    {
+      "outlet": "Seduh Nusantara Summarecon Bekasi",
+      "net_sales": 480987500,
+      "gross_profit": 284319380,
+      "margin": 0.5911159437615323,
+      "orders": 9725,
+      "delivery_share": 0.29336760925449873,
+      "growth_h2_vs_h1": 0.3104682302362167
+    },
+    {
+      "outlet": "Seduh Nusantara Margonda",
+      "net_sales": 419652800,
+      "gross_profit": 249147360,
+      "margin": 0.5936987910005604,
+      "orders": 8559,
+      "delivery_share": 0.2811076060287417,
+      "growth_h2_vs_h1": 0.312247474121349
+    },
+    {
+      "outlet": "Seduh Nusantara Sentul",
+      "net_sales": 349222700,
+      "gross_profit": 206719140,
+      "margin": 0.5919407300842701,
+      "orders": 7146,
+      "delivery_share": 0.28967254408060455,
+      "growth_h2_vs_h1": 0.2766296857907644
+    },
+    {
+      "outlet": "Seduh Nusantara Kelapa Gading",
+      "net_sales": 317821000,
+      "gross_profit": 187803580,
+      "margin": 0.5909099147004131,
+      "orders": 6481,
+      "delivery_share": 0.2905415830890295,
+      "growth_h2_vs_h1": 0.2740223351764719
+    }
+  ],
+  "channel": {
+    "Delivery": {
+      "orders": 15782,
+      "share": 0.28996104945983686,
+      "aov": 47946.413635787605,
+      "net_sales": 756690300,
+      "gross_profit": 340786140,
+      "margin": 0.45036409215236406,
+      "commission": 151338060
+    },
+    "Dine-in": {
+      "orders": 21729,
+      "share": 0.39922466377599763,
+      "aov": 51120.8891343366,
+      "net_sales": 1110805800,
+      "gross_profit": 717231000,
+      "margin": 0.6456853214126178,
+      "commission": 0
+    },
+    "Takeaway": {
+      "orders": 16917,
+      "share": 0.3108142867641655,
+      "aov": 47127.40438612047,
+      "net_sales": 797254300,
+      "gross_profit": 519604900,
+      "margin": 0.6517429884040763,
+      "commission": 0
+    }
+  },
+  "delivery_trend": {
+    "share_jan": 0.23008611410118407,
+    "share_dec": 0.34998209810239883,
+    "margin_jan": 0.6057535843999583,
+    "margin_dec": 0.5830551428310669
+  },
+  "promo": [
+    {
+      "promo": "Diskon Gajian",
+      "discount": 40813200,
+      "net_sales": 231274800,
+      "gross_profit": 124477120,
+      "margin": 0.5382217171953019,
+      "orders": 5487
+    },
+    {
+      "promo": "Promo Kopi Susu Juni",
+      "discount": 15646400,
+      "net_sales": 29057600,
+      "gross_profit": 12221720,
+      "margin": 0.42060321568195586,
+      "orders": 1779
+    },
+    {
+      "promo": "Tanpa Promo",
+      "discount": 0,
+      "net_sales": 2404418000,
+      "gross_profit": 1440923200,
+      "margin": 0.5992814893250674,
+      "orders": 48504
+    }
+  ],
+  "gajian": {
+    "p_value_welch": 0.3748023076939747,
+    "uplift_gp": 3785612.4588200804,
+    "gp_gajian_days": 125680200,
+    "discount_total": 40813200,
+    "weekday_orders_gajian": 147.76,
+    "weekday_orders_other": 143.3093220338983,
+    "gajian_weekdays": 25,
+    "other_weekdays": 236,
+    "diff_pct": 0.031056444221046142,
+    "breakeven_order_drop": 0.24513404134938682
+  },
+  "kopi_susu": {
+    "mei": {
+      "units": 1756,
+      "net_sales": 38104000,
+      "gross_profit": 22894380,
+      "gp_per_unit": 13037.801822323463,
+      "discount": 528000
+    },
+    "juni": {
+      "units": 2032,
+      "net_sales": 29057600,
+      "gross_profit": 12221720,
+      "gp_per_unit": 6014.6259842519685,
+      "discount": 15646400
+    },
+    "unit_change": 0.15717539863325736,
+    "gp_change": -0.46616942673267414,
+    "gp_lost": 10672660,
+    "units_needed_to_match_may": 3806.451150901837
+  },
+  "food": {
+    "attach": 0.3377673256412141,
+    "aov_with_food": 66219.21779808529,
+    "aov_without_food": 40155.81788924648,
+    "avg_food_gp_per_food_order": 13677.87097476066,
+    "attach_by_channel": {
+      "Dine-in": 0.4158037645542823,
+      "Takeaway": 0.2697286752970385,
+      "Delivery": 0.30325687492079584
+    }
+  },
+  "category": [
+    {
+      "category": "Kopi",
+      "net_sales": 1297852000,
+      "gross_profit": 789993700,
+      "margin": 0.6086932100116192
+    },
+    {
+      "category": "Makanan",
+      "net_sales": 485738400,
+      "gross_profit": 251453980,
+      "margin": 0.5176736696131086
+    },
+    {
+      "category": "Non-Kopi",
+      "net_sales": 881160000,
+      "gross_profit": 536174360,
+      "margin": 0.608486949021744
+    }
+  ],
+  "member": {
+    "members": 2000,
+    "member_order_share": 0.3502057764385978,
+    "eligible": 1785,
+    "return_60d": 0.7988795518207283,
+    "return_60d_cohort_h1": 0.8078703703703703,
+    "return_60d_cohort_h2": 0.7750511247443763,
+    "eligible_h1": 1296,
+    "eligible_h2": 489
+  },
+  "impact": {
+    "delivery_price_up_pct": 0.05,
+    "delivery_price_up_gain": 30267612.0,
+    "delivery_price_up_breakeven_drop": 0.08157204134672111,
+    "delivery_margin_gap_loss": 147797679.56531018,
+    "gajian_upper_bound": 40813200,
+    "kopi_susu_gp_lost": 10672660,
+    "food_attach_up_pts": 0.05,
+    "food_attach_gain": 37222958.07071366
+  }
+}
